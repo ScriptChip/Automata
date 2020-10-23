@@ -36,12 +36,12 @@ module.exports.config = {
 3. Start program, and run program named `myfirst`
 
 ### Creating your own program - Functions
-`listner` is Object for listning for changes. It emits two events: `mmousemove` and `keydown`
-`controller` is Object that's job is controlling mouse and keyboard:
-`controller.keyTap("f1")` - Taps the F1 key once
-`controller.typeString("Hello World!")` - Writes the inputed String
-`controller.moveMouse(x, y)` - Moves the mouse to selected X and Y possition
-`controller.getMousePos()` - Return current possiotn of the mouse
-`controller.getPixelColor(x, y)` - Return color on selected possition
-`controller.getScreenSize` - Return size of the screen
-`controller.screen.capture` - Return Bitmap of screen
+`listner` is Object for listning for changes. It emits two events: `mmousemove` and `keydown`<br>
+`controller` is Object that's job is controlling mouse and keyboard:<br>
+`controller.keyTap("f1")` - Taps the F1 key once<br>
+`controller.typeString("Hello World!")` - Writes the inputed String<br>
+`controller.moveMouse(x, y)` - Moves the mouse to selected X and Y possition<br>
+`controller.getMousePos()` - Return current possiotn of the mouse<br>
+`controller.getPixelColor(x, y)` - Return color on selected possition<br>
+`controller.getScreenSize` - Return size of the screen<br>
+`controller.screen.capture` - Return Bitmap of screen<br>
